@@ -147,7 +147,7 @@ export default function WhyHalcyon() {
     >
       <Grid container spacing={6} alignItems="center">
         {/* LEFT CONTENT */}
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={6} sx={{width:450}}>
           <motion.div
             initial={{ opacity: 0, x: -60 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
@@ -164,7 +164,7 @@ export default function WhyHalcyon() {
                 fontSize: 17,
                 color: "text.secondary",
                 lineHeight: 1.8,
-                maxWidth: 450,
+                maxWidth: 440,
               }}
             >
               At Halcyon Pain Management, we believe pain should never define
@@ -179,7 +179,7 @@ export default function WhyHalcyon() {
                 fontSize: 17,
                 color: "text.secondary",
                 lineHeight: 1.8,
-                maxWidth: 500,
+                maxWidth: 440,
               }}
             >
               We combine advanced pain interventions, ethical medical practice,
@@ -224,6 +224,7 @@ export default function WhyHalcyon() {
               sx={{
                 width: "100%",
                 maxWidth: 650,
+                height: 600,
                 aspectRatio: "16 / 9",
                 borderRadius: 5,
                 overflow: "hidden",
