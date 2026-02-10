@@ -47,7 +47,7 @@ export default function Services() {
       {/* SERVICES GRID */}
       <Grid container spacing={4}>
         {services.map((service, i) => (
-          <Grid item xs={12} sm={6} md={4} key={service.title} sx={{width:"220px", height:"300px", ml:8}}>
+          <Grid item xs={12} sm={6} md={4} key={service.title} sx={{width:"220px", height:"300px", ml:4}}>
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
