@@ -192,15 +192,15 @@ export default function Hero() {
           "linear-gradient(135deg, rgba(11,94,215,0.05), rgba(124,179,66,0.08))",
       }}
     >
-      <Grid container spacing={6} alignItems="center">
+      <Grid container spacing={6} alignItems="center" >
         {/* LEFT CONTENT */}
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={4} sx={{width:350}}>
           <motion.div
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1, ease: "easeOut" }}
           >
-            <Typography variant="h4" gutterBottom>
+            <Typography variant="h3" gutterBottom>
               Welcome To <br />
               <span style={{ color: "#C2185B" }}>
                 Halcyon Pain Management
@@ -231,7 +231,7 @@ export default function Hero() {
         </Grid>
 
         {/* CENTER IMAGE */}
-        <Grid item xs={12} md={4} sx={{ textAlign: "center", mt: 5 }}>
+        <Grid item xs={12} md={4} sx={{ textAlign: "center", mt: 5 , width:420}}>
           <motion.div
             animate={{ y: [0, -18, 0] }}
             transition={{
@@ -270,7 +270,7 @@ export default function Hero() {
         </Grid>
 
         {/* RIGHT IMAGE SLIDER */}
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={4} sx={{width:300}}>
           <motion.div
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}

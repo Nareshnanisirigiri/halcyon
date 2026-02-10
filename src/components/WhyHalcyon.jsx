@@ -164,7 +164,7 @@ export default function WhyHalcyon() {
                 fontSize: 17,
                 color: "text.secondary",
                 lineHeight: 1.8,
-                maxWidth: 520,
+                maxWidth: 450,
               }}
             >
               At Halcyon Pain Management, we believe pain should never define
