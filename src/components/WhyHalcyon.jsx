@@ -179,7 +179,7 @@ export default function WhyHalcyon() {
                 fontSize: 17,
                 color: "text.secondary",
                 lineHeight: 1.8,
-                maxWidth: 520,
+                maxWidth: 500,
               }}
             >
               We combine advanced pain interventions, ethical medical practice,
@@ -223,7 +223,7 @@ export default function WhyHalcyon() {
             <Box
               sx={{
                 width: "100%",
-                maxWidth: 700,
+                maxWidth: 650,
                 aspectRatio: "16 / 9",
                 borderRadius: 5,
                 overflow: "hidden",

@@ -254,7 +254,7 @@ export default function Hero() {
                 alt="Dr Pallavi Dasyam"
                 style={{
                   width: "100%",
-                  maxWidth: 360,
+                  maxWidth: 350,
                   borderRadius: 18,
                 }}
               />
